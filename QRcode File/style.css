@@ -1,0 +1,13 @@
+@media print{
+    body *{
+        visibility: hidden;
+    }
+    #qrcode,#qrcode *{
+        visibility: visible;
+    }
+    #qrcode{
+        position: absolute;
+        left: 40%;
+        top: 60%;
+    }
+}
